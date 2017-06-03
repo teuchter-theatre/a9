@@ -1,0 +1,39 @@
+body {
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.menu-item {
+  font-size: 32px;
+  margin: 16px 24px 16px 24px;
+}
+
+#logo {
+  font-size: 80px;
+}
+
+#pronounciation {
+  font-size: 32px;
+  color: white;
+}
