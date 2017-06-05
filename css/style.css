@@ -1,5 +1,6 @@
 body {
   font-family: 'Amatic SC', cursive;
+  width: 100%;
   margin:0;
   padding:0;
 }
@@ -31,7 +32,11 @@ a:hover {
   flex-direction: column;
 }
 
-.gravity-end {
+.spaces-between {
+  justify-content: space-between;
+}
+
+.flex-end {
   justify-content: flex-end;
 }
 
@@ -45,15 +50,19 @@ a:hover {
 }
 
 .menu-item {
-  font-size: 32px;
+  font-size: 28px;
   margin: 16px 24px 16px 24px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .logo {
   font-size: 80px;
 }
 
-#pronounciation {
+.pronounciation {
   font-size: 32px;
   color: white;
 }
