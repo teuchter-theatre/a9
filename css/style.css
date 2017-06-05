@@ -66,3 +66,9 @@ a:hover {
   font-size: 32px;
   color: white;
 }
+
+.body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
