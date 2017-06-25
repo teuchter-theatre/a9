@@ -5,16 +5,45 @@ body {
   padding:0;
 }
 
+
 .banner {
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 428px;
 }
 
-@media screen and (max-width: 600px) {
+/* Galaxy S5 */
+@media (min-height: 640px) {
   .banner {
-    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+}
+
+/* iPhone 7 */
+@media (min-height: 667px) {
+  .banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 527px;
+  }
+}
+
+/* iPhone 7 Plus */
+@media (min-height: 736px) {
+  .banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 596px;
+  }
+}
+
+@media (min-height: 800px) {
+  .banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 660px;
   }
 }
 
@@ -62,15 +91,6 @@ a:hover {
 
 .bold {
   font-weight: bold;
-}
-
-.logo {
-  font-size: 80px;
-}
-
-.pronounciation {
-  font-size: 32px;
-  color: white;
 }
 
 .body {
