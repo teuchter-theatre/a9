@@ -98,3 +98,8 @@ a:hover {
   font-size: 20px;
   text-align: justify;
 }
+
+.manifesto li {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
