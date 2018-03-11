@@ -100,8 +100,6 @@ a:hover {
 .row {
   display: flex;
   flex-direction: row;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .column {
@@ -143,6 +141,11 @@ a:hover {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
   text-align: justify;
+}
+
+.content {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .manifesto li {
