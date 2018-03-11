@@ -39,6 +39,13 @@ body {
   margin-bottom: 24px;
 }
 
+.dates a {
+  background-color: black;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 @media (max-width: 520px) {
   .show-item .poster {
     display: none;
