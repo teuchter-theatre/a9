@@ -2,9 +2,8 @@ body {
   font-family: 'Amatic SC', cursive;
   width: 100%;
   margin:0;
-  padding:0;
+  padding: 0;
 }
-
 
 .banner {
   background-repeat: no-repeat;
@@ -29,14 +28,23 @@ body {
   padding-right: 8px;
 }
 
-.poster {
-  width: 420px;
-  margin-right: 24px;
-}
-
 .show-item {
   justify-content: center;
+  flex-wrap: wrap;
 }
+
+.show-item .poster {
+  width: 420px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 520px) {
+  .show-item .poster {
+    display: none;
+  }
+}
+
 
 /* Galaxy S5 */
 @media (min-height: 640px) {
@@ -86,6 +94,8 @@ a:hover {
 .row {
   display: flex;
   flex-direction: row;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .column {
@@ -112,7 +122,11 @@ a:hover {
 
 .menu-item {
   font-size: 28px;
-  margin: 16px 24px 16px 24px;
+  margin: 16px 24px 16px 0px;
+}
+
+.menu-item.end {
+  margin: 16px 0px 16px 0px;
 }
 
 .bold {
